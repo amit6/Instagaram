@@ -1,0 +1,86 @@
+body{
+	background: rgba(236, 236, 236, 0.26);
+}
+strong{
+    color: #0000ee;
+    margin-right: 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+header{
+	display: flex;
+    justify-content: center;
+    color: #2875b3;
+    font-size: 36px;
+    font-family: cursive;
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+}
+.photo-grid .photo{
+	border: 6px solid rgba(232, 231, 231, 0.76);
+    width: 309px;
+    height: 435px;
+    margin: 25px;
+    background: #fff;
+}
+.photo figure{
+	height: 263px;
+}
+.caption-likes-comments{
+	display: flex;
+	flex-direction: column;
+	margin: 28px 10px;
+}
+.caption{
+	align-self: center;
+}
+.likes-comments{
+	display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.likes-comments > div{
+	border: 2px solid rgba(232, 231, 231, 0.76);
+    width: 96px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.likes-comments > div:hover{
+	border: 3px solid #2875b3;
+}
+img{
+	width: 100%;
+    height: 100%;
+}
+.overlay{
+    background: #fafafa;
+    position: absolute;
+    width: 100%;
+}
+.single-photo-wrapper{
+    background: #fff;
+    padding: 3% 7%;
+}
+.single-photo{
+    display: flex;
+}
+.overlay .photo figure{
+    height: 588px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type=text]{
+    width: 511px;
+    height: 24px;
+    margin-bottom: 14px;
+}
+.remove-comment{
+    margin-left: 7px;
+}
